@@ -18,7 +18,7 @@ pl2 <- pl + geom_text(aes(label = Country),
                       data = subset(df, Country %in% country),
                       check_overlap = TRUE, color = "gray20") +
   theme_economist_white() +
-  labs(color = NULL, caption = "Source: Economist_Assignment_Data.csv")
+  labs(color = NULL, caption = "Source: Economist_Graph_Data.csv")
 
 pl3 <- pl2 + scale_x_continuous(name = "Corruption Perceptions Index, 2011 (10 = least corrupt)",
                                 limits = c(1,10), breaks = 1:10) +
