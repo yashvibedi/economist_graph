@@ -1,4 +1,4 @@
-# Economist_Graph
+# economist_graph
 
 This project replicates a visualization from The Economist showing the relationship between the Corruption Perceptions Index (CPI) and the Human Development Index (HDI) for 2011.  
 
